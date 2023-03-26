@@ -1,8 +1,8 @@
 -- =============================================
 -- SaveToDB Framework Extension for MySQL
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2022 Gartle LLC
+-- Copyright 2022-2023 Gartle LLC
 --
 -- License: MIT
 -- =============================================
@@ -243,7 +243,7 @@ END
 
 DELIMITER ;
 
-INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES ('xls', 'savetodb_framework_extension', 'version', 'Information', NULL, NULL, 'ATTRIBUTE', '10.4', NULL, NULL, NULL);
+INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES ('xls', 'savetodb_framework_extension', 'version', 'Information', NULL, NULL, 'ATTRIBUTE', '10.8', NULL, NULL, NULL);
 
 INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES ('xls', 'view_columns', NULL, 'Actions', 'xls', 'Developer Guide', 'HTTP', 'https://www.savetodb.com/dev-guide/xls-columns.htm', NULL, 13, NULL);
 INSERT INTO xls.handlers (TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME, EVENT_NAME, HANDLER_SCHEMA, HANDLER_NAME, HANDLER_TYPE, HANDLER_CODE, TARGET_WORKSHEET, MENU_ORDER, EDIT_PARAMETERS) VALUES ('xls', 'view_formats', NULL, 'Actions', 'xls', 'Developer Guide', 'HTTP', 'https://www.savetodb.com/dev-guide/xls-formats.htm', NULL, 13, NULL);
